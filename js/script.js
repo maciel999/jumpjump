@@ -46,7 +46,7 @@ setInterval (function(){
     if(caracterLeft == blockLeft && blockTop<500 && blockTop>300){
         alert('Game Over! Pontuação: '+counter);
         block.style.animation = 'none';
-
+        linha.style.animation = 'none';
     }   
     score.innerHTML = `Pontuação: ${counter}`;
 }, 1);
