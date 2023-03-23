@@ -51,5 +51,5 @@ setInterval (function(){
     score.innerHTML = `Pontuação: ${counter}`;
 }, 1);
 
-document.getElementById("left").addEventListener("touchstar", moveLeft);
-document.getElementById("right").addEventListener("touchstar", moveRight);
+document.getElementById("left").addEventListener("touchstart", moveLeft);
+document.getElementById("right").addEventListener("touchstart", moveRight);
